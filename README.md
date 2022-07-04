@@ -23,7 +23,7 @@ pip install selenium
 
 
 `https://www.browserstack.com/docs/automate/selenium/getting-started/python#run-your-first-test`
-Up here's the the detailed documentation on running tests on browserstack using python and selenium 
+[detailed documentation on running tests on browserstack using python and selenium ]
 
 ## 2. Get Access Keys
 ### Find a drop down named Access Keys on automate.browserstack.com/dashboard 
