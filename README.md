@@ -25,12 +25,12 @@ pip install selenium
 
 ## 2. Get Access Keys
 ### Find a drop down named Access Keys on automate.browserstack.com/dashboard 
-> An access key dropdown will give details of your dashboard's  user name and access key
-> These are crucial  for running the python scripts and viewing the output on the browserstack automate dashboard
+#### An access key dropdown will give details of your dashboard's  user name and access key
+#### These are crucial  for running the python scripts and viewing the output on the browserstack automate dashboard
+
 > If you cant get it right, visit this link: 
 > https://www.browserstack.com/docs/automate/selenium/getting-started/python#run-your-first-test
-> In there search for `command_excutor`
-> Browserstack  is pretty cool , it will create a sample python test script using your access-keys
+> In there search for `command_excutor`, since browserstack  is pretty cool , it will create a sample python test script using your access-keys
 
 ```py
 command_executor='https://<username>:<accesskey>@hub-cloud.browserstack.com/wd/hub
@@ -53,6 +53,6 @@ python3 test_script.py
 chmod +x Test.sh
 ./Test.sh
 ```
-## Now once you execute any of these commands in step3 , go and check automate.browserstack.com/dashboard
+### Now once you execute any of these commands in step3 , go and check automate.browserstack.com/dashboard
 
 
