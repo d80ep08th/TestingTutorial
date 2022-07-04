@@ -20,9 +20,10 @@ pip install selenium
 ## 1. Sign Up on Browserstack
 > Once you do that,  go here: https://automate.browserstack.com/ and keep this page open
 #### A dashboard should open up, make sure you select python
-the detailed documentation on running tests on browserstack using python and selenium 
+
 
 `https://www.browserstack.com/docs/automate/selenium/getting-started/python#run-your-first-test`
+Up here's the the detailed documentation on running tests on browserstack using python and selenium 
 
 ## 2. Get Access Keys
 ### Find a drop down named Access Keys on automate.browserstack.com/dashboard 
@@ -31,7 +32,7 @@ the detailed documentation on running tests on browserstack using python and sel
 
 > If you cant get it right, visit this link: 
 > https://www.browserstack.com/docs/automate/selenium/getting-started/python#run-your-first-test
-> In there search for `command_excutor`, since browserstack  is pretty cool , it will create a sample python test script using your access-keys
+In there search for `command_excutor`, since browserstack  is pretty cool , it will create a sample python test script using your access-keys
 
 ```py
 command_executor='https://<username>:<accesskey>@hub-cloud.browserstack.com/wd/hub
@@ -41,7 +42,7 @@ command_executor='https://<username>:<accesskey>@hub-cloud.browserstack.com/wd/h
 > Okay so we have reached the main part of this tutorial now
  - `test_login.py` : Test login functionality of the website 
  - `test_cart.py`  : Test putting an item into a cart[iphone 12 and iphone XR]
-> Feed the `command_executor` value into these script
+#### Find the `command_executor` value into these script
 > Warning: The scripts are made w.r.t. the website being tested: if you change the website, change the script as well.
 #### In your linux console write:
 ```
