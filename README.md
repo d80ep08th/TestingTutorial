@@ -32,6 +32,7 @@ pip install selenium
 
 > If you cant get it right, visit this link: 
 > https://www.browserstack.com/docs/automate/selenium/getting-started/python#run-your-first-test
+
 In there search for `command_excutor`, since browserstack  is pretty cool , it will create a sample python test script using your access-keys
 
 ```py
