@@ -43,7 +43,7 @@ command_executor='https://<username>:<accesskey>@hub-cloud.browserstack.com/wd/h
 > Okay so we have reached the main part of this tutorial now
  - `test_login.py` : Test login functionality of the website 
  - `test_cart.py`  : Test putting an item into a cart[iphone 12 and iphone XR]
-#### Find the `command_executor` value into these script
+#### Feed the `command_executor` value into these script
 > Warning: The scripts are made w.r.t. the website being tested: if you change the website, change the script as well.
 #### In your linux console write:
 ```
