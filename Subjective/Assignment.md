@@ -8,7 +8,9 @@
 3. Vision :  Have a clearly defined vision. Without a direction a community is condemned to meander meaninglessly .
 
 4. Onboarding : Have some onboarding plan to add new members to the community that makes them feel welcome.
-5. Meetings : Have weekly online meeting ( or monthly or bi-weekly) for an hour where the community members can come together  from anywhere in the world with the issues and the new developments. A page that displays the schedule of meetings and detailed information of old meetings that include: the minutes of the meetings as well as the members that were present during that particular meeting.  
+5. Meetings : 
+- Have weekly online meeting ( or monthly or bi-weekly) for an hour where the community members can come together from anywhere in the world with the issues and the new developments, and have technical discussions. 
+- A page that displays the schedule of meetings and detailed information of old meetings that include: the minutes of the meetings as well as the members that were present during that particular meeting.  
 
 5. Consistent Performance Tracking: Observe and analyze the performance of the community regularly with stakeholders
 
@@ -18,5 +20,20 @@
 
 9. Hosting Meetups:  Host an event that brings the community together and get  the active community members involved in the management of the meetups. They should feel like they have a stake in the well-being of the community.
 
-> Which Developer communities who follow the most and what do you like about them -List top 3
+> Which Developer communities do you follow the most and what do you like about them? -List top 3
 #### Answer :
+1. AGL Developer Community
+https://lists.automotivelinux.org/g/agl-dev-community
+- Since I was interested into Tesla Cars , I got really focused researching into what kind of operating system a tesla runs on. I ended up finding AGL and wrote code for it.
+- This community is building an open source operating systems for cars, making sure that all the automakers have a common open source base, whether it is Mercedes or Honda. 
+
+2. Free Software Community
+https://www.fsf.org/working-together/profiles/meet-the-free-software-community
+- High respect for this community, the first community on earth to start a movement for open source software.
+- The beginning of all open source software starts from the birth of this community.
+- Linus Torvalds was able to share his linux code that was customized many many times because of this community and this created THE LINUX FOUNDATION.
+
+3. Tor Project Community
+https://community.torproject.org/
+- A community that builds privacy software that anybody can use for free. 
+- This community facilitates tech for anybody with a computer and an internet connection to make sure the user remains completely anonymous when surfing on the non indexed internet i.e. the deep web and the dark web.
