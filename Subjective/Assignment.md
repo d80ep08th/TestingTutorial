@@ -8,6 +8,7 @@
 3. Vision :  Have a clearly defined vision. Without a direction a community is condemned to meander meaninglessly .
 
 4. Onboarding : Have some onboarding plan to add new members to the community that makes them feel welcome.
+5. Meetings : Have weekly online meeting ( or monthly or bi-weekly) for an hour where the community members can come together  from anywhere in the world with the issues and the new developments. A page that displays the schedule of meetings and detailed information of old meetings that include: the minutes of the meetings as well as the members that were present during that particular meeting.  
 
 5. Consistent Performance Tracking: Observe and analyze the performance of the community regularly with stakeholders
 
