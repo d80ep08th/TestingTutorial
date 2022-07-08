@@ -43,7 +43,9 @@ def run_session(desired_cap):
     
 
     WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"1\"]/div[4]'))).click()
-   WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"__next\"]/div/div/div[2]/div[1]'))).click()
+    
+    WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"__next\"]/div/div/div[2]/div[1]'))).click()
+   
    WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"8\"]/div[4]'))).click()
    #driver.find_element_by_xpath("//*[@id=\"1\"]/div[4]").click()
     
