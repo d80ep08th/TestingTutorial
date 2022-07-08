@@ -29,9 +29,10 @@ https://lists.automotivelinux.org/g/agl-dev-community
 
 2. Free Software Community
 https://www.fsf.org/working-together/profiles/meet-the-free-software-community
-- High respect for this community, the first community on earth to start a movement for open source software.
-- The beginning of all open source software starts from the birth of this community.
-- Linus Torvalds was able to share his linux code that was customized many many times because of this community and this created THE LINUX FOUNDATION.
+- The free software movement led to the creation of the free software community
+- They campaign for software to be distributed in such a manner that its users have the freedom to use, study, distribute, and modify that software
+- The beginning of all open source software started from the birth of this community.
+- FSF had nothing do with linux development to be clear but Linus Torvalds was able to share his linux code that was customized many many times because of this community and this created THE LINUX FOUNDATION.
 
 3. Tor Project Community
 https://community.torproject.org/
