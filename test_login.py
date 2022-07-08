@@ -33,25 +33,35 @@ def run_session(desired_cap):
       desired_capabilities=desired_cap)
   try:
     driver.get("https://bstackdemo.com/signin")
+    ####
+    WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"username\"]/div/div[2]/span'))).click()
+    
+    WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"username\"]/div[2]/div'))).click()
 
-    driver.find_element_by_xpath("//*[@id=\"username\"]/div/div[2]/span").click()
-    time.sleep(5)
-    driver.find_element_by_xpath("//*[@id=\"username\"]/div[2]/div").click()
+    WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"password\"]/div/div[2]/span'))).click()
 
-    time.sleep(5)
+    WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"password\"]/div[2]/div'))).click()
 
-    driver.find_element_by_xpath("//*[@id=\"password\"]/div/div[2]/span").click()
-    time.sleep(5)
+    WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.ID, 'login-btn'))).click()
+    ####
+    #driver.find_element_by_xpath("//*[@id=\"username\"]/div/div[2]/span").click()
+    #time.sleep(5)
+    #driver.find_element_by_xpath("//*[@id=\"username\"]/div[2]/div").click()
 
-    driver.find_element_by_xpath("//*[@id=\"password\"]/div[2]/div").click()
-    time.sleep(5)
-    driver.find_element_by_id("login-btn").click()
+    #time.sleep(5)
+
+    #driver.find_element_by_xpath("//*[@id=\"password\"]/div/div[2]/span").click()
+    #time.sleep(5)
+
+    #driver.find_element_by_xpath("//*[@id=\"password\"]/div[2]/div").click()
+    #time.sleep(5)
+    #driver.find_element_by_id("login-btn").click()
 
     #username_input_box.send_keys(username)
-    time.sleep(2)
+    #time.sleep(2)
     #password_input_box.send_keys(password)
 
-    time.sleep(2)
+    #time.sleep(2)
 
     #hit the login button
 

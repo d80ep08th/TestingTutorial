@@ -34,23 +34,30 @@ def run_session(desired_cap):
 
     time.sleep(1)
 
-    item1_on_page = driver.find_element_by_xpath("//*[@id=\"1\"]/p").text
-    time.sleep(2)
+    item1_on_page = WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"1\"]/p'))).text
+    #driver.find_element_by_xpath("//*[@id=\"1\"]/p").text
+    
 
-    item2_on_page = driver.find_element_by_xpath("//*[@id=\"8\"]/p").text
-    time.sleep(2)
+    item2_on_page = WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"8\"]/p'))).text
+    #driver.find_element_by_xpath("//*[@id=\"8\"]/p").text
+    
 
-    driver.find_element_by_xpath("//*[@id=\"1\"]/div[4]").click()
-    time.sleep(2)
+    WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"1\"]/div[4]'))).click()
+   WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"__next\"]/div/div/div[2]/div[1]'))).click()
+   WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"8\"]/div[4]'))).click()
+   #driver.find_element_by_xpath("//*[@id=\"1\"]/div[4]").click()
+    
     # //*[@id="__next"]/div/div/div[2]/div[1]
-    driver.find_element_by_xpath("//*[@id=\"__next\"]/div/div/div[2]/div[1]").click()
-    time.sleep(2)
-    driver.find_element_by_xpath("//*[@id=\"8\"]/div[4]").click()
 
-    time.sleep(2)
+    #driver.find_element_by_xpath("//*[@id=\"__next\"]/div/div/div[2]/div[1]").click()
+    
+    #driver.find_element_by_xpath("//*[@id=\"8\"]/div[4]").click()
+
     ## Get text of product in cart //*[@id="__next"]/div/div/div[2]/div[2]/div[2]/div[1]/div[3]/p[1]
-    item1_in_cart = driver.find_element_by_xpath("//*[@id=\"__next\"]/div/div/div[2]/div[2]/div[2]/div/div[3]/p[1]").text
-    item2_in_cart = driver.find_element_by_xpath("//*[@id=\"__next\"]/div/div/div[2]/div[2]/div[2]/div[2]/div[3]/p[1]").text
+    item1_in_cart = WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"__next\"]/div/div/div[2]/div[2]/div[2]/div/div[3]/p[1]'))).text
+    #driver.find_element_by_xpath("//*[@id=\"__next\"]/div/div/div[2]/div[2]/div[2]/div/div[3]/p[1]").text
+    item2_in_cart = WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, '//*[@id=\"__next\"]/div/div/div[2]/div[2]/div[2]/div[2]/div[3]/p[1]'))).text
+    #driver.find_element_by_xpath("//*[@id=\"__next\"]/div/div/div[2]/div[2]/div[2]/div[2]/div[3]/p[1]").text
 
     time.sleep(1)
     # Verify whether the product (iPhone 12) is added to cart
